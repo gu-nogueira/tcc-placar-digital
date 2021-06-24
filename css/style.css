@@ -1,0 +1,496 @@
+
+body {
+	font-family: 'New X Digital tfb';
+	background-repeat: no-repeat;
+	background-size: cover;
+	overflow-x:hidden;
+	overflow-y:hidden;
+}
+
+	/* FONTE USADA EM TODAS PÁGINAS */
+
+.fonte-principal {
+	font-family: New X Digital tfb;
+	color: #FFF;
+	text-transform: uppercase;
+	font-weight: 800;
+	margin-bottom: 15px;
+	font-size: 35px;
+	display: block;
+	margin-top: -15px;
+}
+
+	/* CLASSES DA TELA INICIAL INDUSTRIAL (PROVISÓRIO) */
+
+.titulo {
+	color: #FFF;
+	font-weight: 700;
+	font-size: 70px;
+	margin-bottom: 100px;
+	margin-top: 30px;
+	text-align: center;
+	text-transform: uppercase;
+	font-family: New X Digital tfb;
+}
+
+.x {
+	color: #FFF;
+	text-transform: uppercase;
+	font-weight: 700;
+	margin-bottom: 15px;
+	font-size: 80px;
+	display: block;
+	font-family: New X Digital tfb;
+
+}
+
+.botao {
+  display:block;
+	border-color:#F0FFFF;
+	border-radius:50px;
+
+	border:2px solid;
+	width:250px;
+	height:100px;
+	padding:10px;
+	margin-top: -10px;
+
+	background:#00008B;
+	color:#F0FFFF;
+
+	font-family: New X Digital tfb;
+	font-size:30px;
+	text-transform: uppercase;
+	font-weight:bold;
+	text-align:center;
+	text-decoration:none;
+}
+
+
+
+	/* CLASSES DA TELA PRINCIPAL */
+
+.fonte-equipe {
+	font-size: 85px;
+	color: white;
+	text-shadow: 3px 3px 3px #000;
+	-webkit-text-stroke-width: 5px;
+	-webkit-text-stroke-color: #000;
+	font-weight: 900;
+	font-family : 'New X Digital tfb';
+	margin-top:-100px;
+}
+
+.red {
+	-webkit-text-stroke-color: #680000;
+}
+
+.blue {
+	-webkit-text-stroke-color: #00244f;
+}
+
+.yellow {
+	-webkit-text-stroke-color: #4f4b00;
+}
+
+.purple {
+	-webkit-text-stroke-color: #2b004f;
+}
+
+.letreiro {
+	 width: 100%;
+	 height: 28%;
+	 padding-top: 30px;
+	 position: fixed;
+	 top: 0;
+	 background-size: cover;
+}
+
+.adm {
+	width : 50%;
+	height : 100%;
+	background-image: url('../Imagens/adm.png');
+	background-size: cover;
+	padding : 40px;
+	padding-top: 200px;
+	font-family : 'New X Digital tfb';
+}
+
+
+.info {
+	width : 50%;
+	height : 100%;
+	background-image: url('../Imagens/informatica.png');
+	background-size: cover;
+	padding : 40px;
+	padding-top: 200px;
+	font-family : 'New X Digital tfb';
+}
+
+.eletrica {
+	width : 50%;
+	height : 100%;
+	background-image: url('../Imagens/eletronica.png');
+	background-size: cover;
+	padding : 40px;
+	padding-top: 200px;
+	font-family : 'New X Digital tfb';
+}
+
+.mecanica {
+	width : 50%;
+	height : 100%;
+	background-image: url('../Imagens/mecanica.png');
+	background-size: cover;
+	padding : 40px;
+	padding-top: 200px;
+	font-family : 'New X Digital tfb';
+}
+
+.box-pontuacao {
+	width : 350px;
+	height : 350px;
+	background-color: rgba(0, 0, 0, 0.75);
+	border-radius : 20px;
+	border-width : 14px;
+	border-style: solid;
+	border-color : white;
+	padding: 15px;
+	position: relative;
+	top: 125px;
+	box-shadow:15px 15px 50px black;
+}
+
+.box-pontuacao-vol {
+	width : 350px;
+	height : 450px;
+	background-color: rgba(0, 0, 0, 0.75);
+	border-radius : 20px;
+	border-width : 14px;
+	border-style: solid;
+	border-color : white;
+	padding: 15px;
+	position: relative;
+	top: 120px;
+	box-shadow:15px 15px 50px black;
+}
+
+.fonte-pontuacao {
+	color: #FFF;
+	font-size: 170px;
+	display: block;
+	position: relative;
+	margin-top: 60px;
+	text-align: center;
+	right: 15px;
+	font-family: New X Digital tfb;
+}
+
+.cronometro {
+	background-color: rgba(25, 25, 25, 0.85);
+	width: 620px;
+	height: 180px;
+	position: absolute;
+	top: 250px;
+	left: 50%;
+	margin-top: -90px;
+	margin-left: -310px;
+	border-radius: 5px;
+	border-width: 3px;
+	border-style: solid;
+	border-color: rgba(255, 255, 255, 0.75);
+	box-shadow:10px 10px 50px black;
+}
+
+.fonte-cronometro {
+	color: red;
+	font-size: 115px;
+	display: block;
+	text-align: center;
+	padding-right: 18px;
+	font-family: New X Digital tfb;
+}
+
+.result-Volei {
+	display: none;
+}
+
+.botoes {
+	width: 400px;
+	height: 100px;
+	position: fixed;
+	top: 325px;
+	left: 50%;
+	margin-left: -200px;
+}
+
+.startButton {
+	width: 100px;
+	height: 100px;
+	background-image: url('../Imagens/play.png');
+	background-size: cover;
+	float: left;
+}
+
+.pauseButton {
+	width: 100px;
+	height: 100px;
+	background-image: url('../Imagens/pause.png');
+	background-size: cover;
+	float: left;
+}
+
+.resetButton {
+	width: 100px;
+	height: 100px;
+	background-image: url('../Imagens/reset.png');
+	background-size: cover;
+	float: right;
+}
+
+.stopGame {
+	width: 100px;
+	height: 100px;
+	background-image: url('../Imagens/stop.png');
+	background-size: cover;
+	float: left;
+}
+
+.stopVolei {
+    font-size: 22px;
+		font-family: 'New X Digital tfb';
+		font-weight: bold;
+    position: absolute;
+    top: 200px;
+    left: 50%;
+    margin-left: -100px;
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-user-select: none;
+    cursor: default;
+}
+
+.stopVolei:hover {
+    cursor: pointer;
+}
+
+
+.b09_electric {
+
+    border: #000000 solid 4px;
+		border-radius: 5px;
+    padding: 6px;
+    transition: all 0.1s ease;
+    -webkit-transition: all 0.1s ease;
+    -moz-transition: all 0.1s ease;
+}
+
+.b09_electric:hover {
+    color: #ffffff;
+    background-color: #000000;
+    animation: b09_electric_blinkIn 0.1s step-end 0 2;
+    -webkit-animation: b09_electric_blinkIn 0.1s step-end 0 2;
+    -moz-animation: b09_electric_blinkIn 0.1s step-end 0 2;
+    transition: all 0.2s ease 0.2s;
+    -webkit-transition: all 0.2s ease 0.2s;
+    -moz-transition: all 0.2s ease 0.2s;
+}
+
+@-webkit-keyframes b09_electric_blinkIn {
+    from,
+    to {
+        background-color: #f8f8f8;
+        color: #080808;
+    }
+    50% {
+        background-color: #ffffff;
+        color: #000000;
+    }
+}
+
+@-moz-keyframes b09_electric_blinkIn {
+    from,
+    to {
+        background-color: #f8f8f8;
+        color: #080808;
+    }
+    50% {
+        background-color: #ffffff;
+        color: #000000;
+    }
+}
+
+
+.startButton:hover {
+	cursor: pointer;
+}
+
+.pauseButton:hover {
+	cursor: pointer;
+}
+
+.resetButton:hover {
+	cursor: pointer;
+}
+
+.stopGame:hover {
+	cursor: pointer;
+}
+
+	/* CLASSES DA TELA DO OPERADOR */
+
+.ope {
+	width : 50%;
+	height : 100%;
+	padding : 40px;
+	padding-top: 200px;
+	font-family : 'New X Digital tfb';
+}
+
+.box-pontuacao-ope {
+	width : 280px;
+	height : 280px;
+	background-color: rgba(0, 14, 37);
+	border-radius : 10px;
+	padding: 15px;
+	position: relative;
+	top: 100px;
+	box-shadow:20px 20px 50px;
+}
+
+.box-pontuacao-ope-vol {
+	width : 280px;
+	height : 355px;
+	background-color: rgba(0, 14, 37);
+	border-radius : 10px;
+	padding: 15px;
+	position: relative;
+	top: 40px;
+	box-shadow:20px 20px 50px;
+	margin-top: 50px;
+}
+
+.fonte-pontuacao-ope {
+	color: #FFF;
+	font-size: 140px;
+	display: block;
+	position: relative;
+	margin-top: 48px;
+	text-align: center;
+	right: 15px;
+	font-family: 'New X Digital tfb';
+
+}
+
+.cronometro-ope {
+	background-color: rgba(0, 14, 37);
+	width: 620px;
+	height: 180px;
+	position: absolute;
+	top: 250px;
+	left: 50%;
+	margin-top: -90px;
+	margin-left: -310px;
+	border-radius: 5px;
+	border-width: 3px;
+	border-style: solid;
+	border-color: rgba(255, 255, 255, 0.75);
+	box-shadow:10px 10px 50px black;
+}
+
+.basquete-ope {
+	background-color: rgba(0, 14, 37);
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    margin-top: -75px;
+    margin-left: -75px;
+    border-radius: 5px;
+    border-width: 3px;
+    border-style: solid;
+    border-color: white;
+    padding-top: 50px;
+
+    font-family: 'New X Digital tfb';
+	font-size: 70px;
+	color: #ff0000;
+	padding-top: 25px;
+	padding-right: 10px;
+
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.btn-action-right {
+	top: 30px;
+	position: absolute;
+	right: 85px;
+	width: 50px;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	font-family: 'Arial';
+	font-weight: bold;
+	border-radius: 3px;
+	background-color: #FFF;
+	color: rgba(0,0,0,.5);
+	font-size: 34px;
+	margin-left: 10px;
+	margin-right: 10px;
+	box-shadow:0px 0px 30px black;
+}
+
+.btn-action-right:nth-child(2) {
+	right: 150px;
+}
+
+.btn-action-left {
+	top: 30px;
+	position: absolute;
+	left: 85px;
+	width: 50px;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	font-family: 'Arial';
+	font-weight: bold;
+	border-radius: 3px;
+	background-color: #FFF;
+	color: rgba(0,0,0,.5);
+	font-size: 34px;
+	margin-left: 10px;
+	margin-right: 10px;
+	box-shadow:0px 0px 30px black;
+}
+
+.btn-action-left:hover {
+	cursor: pointer;
+}
+
+.btn-action-right:hover {
+	cursor: pointer;
+}
+
+.btn-action-left:nth-child(2) {
+	left: 150px;
+}
+
+.btn-action:hover {
+	cursor: pointer;
+	color: blue;
+}
+
+.blinking{
+	animation:blinkingText 1s infinite;
+}
+@keyframes blinkingText{
+	0%{		color: red;	}
+	50%{	color: transparent;	}
+	100%{	color: red;	}
+}
